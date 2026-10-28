@@ -1,4 +1,4 @@
-# Lab 6 - JavaScript DOM dan Event Handling
+<img width="393" height="237" alt="Screenshot 2026-10-28 090059" src="https://github.com/user-attachments/assets/5e6b6231-bc32-446d-b531-7a21b8a5e262" /># Lab 6 - JavaScript DOM dan Event Handling
 
 **Nama:** Khairi Ramadhan Yudhatama (312510099)  
 **Kelas:** Pemrograman Web (I251A)  
@@ -49,7 +49,7 @@ Atribut `defer` membuat JavaScript dijalankan setelah HTML selesai diparsing, se
 
 **Hasil di browser (tampilan awal):**
 
-![Screenshot - Tampilan awal](screenshots/00-tampilan-awal.png)
+<img width="588" height="317" alt="Screenshot 2026-10-28 074158" src="https://github.com/user-attachments/assets/a6f2865f-5d85-4fa6-8d9b-03108c898e5a" />
 
 ---
 
@@ -74,7 +74,7 @@ pesan.textContent = "Konten berhasil diubah oleh JavaScript.";
 
 **Hasil di browser:**
 
-![Screenshot Latihan 1 - Mengubah teks dengan DOM](screenshots/01-mengubah-teks-dom.png)
+<img width="602" height="322" alt="Screenshot 2026-10-28 074604" src="https://github.com/user-attachments/assets/1beb170c-14a7-43d8-bdc4-919496125fb6" />
 
 ---
 
@@ -103,11 +103,12 @@ tombol.addEventListener("click", function () {
 
 **Hasil sebelum diklik:**
 
-![Screenshot Latihan 2 - Sebelum diklik](screenshots/02-event-click-sebelum.png)
+<img width="608" height="332" alt="Screenshot 2026-10-28 075801" src="https://github.com/user-attachments/assets/425c4932-fb3c-45d2-b597-c4e440929cb7" />
 
 **Hasil setelah diklik:**
 
-![Screenshot Latihan 2 - Setelah diklik](screenshots/02-event-click-sesudah.png)
+<img width="597" height="327" alt="Screenshot 2026-10-28 075521" src="https://github.com/user-attachments/assets/b4a1c00e-d365-453a-8489-5b711a7ec19d" />
+
 
 ---
 
@@ -152,11 +153,12 @@ tombolGaya.addEventListener("click", function () {
 
 **Hasil sebelum diklik:**
 
-![Screenshot Latihan 3 - Sebelum ubah gaya](screenshots/03-ubah-gaya-sebelum.png)
+<img width="238" height="81" alt="Screenshot 2026-10-28 082151" src="https://github.com/user-attachments/assets/2f489df5-d747-4964-af64-5a8cd9875e03" />
 
 **Hasil sesudah diklik:**
 
-![Screenshot Latihan 3 - Sesudah ubah gaya](screenshots/03-ubah-gaya-sesudah.png)
+<img width="375" height="142" alt="Screenshot 2026-10-28 082231" src="https://github.com/user-attachments/assets/34f073c8-7695-400e-9aa1-00f0dcfd0347" />
+
 
 ---
 
@@ -187,7 +189,9 @@ namaInput.addEventListener("input", function () {
 
 **Hasil di browser:**
 
-![Screenshot Latihan 4 - Penghitung karakter](screenshots/04-penghitung-karakter.png)
+<img width="296" height="75" alt="Screenshot 2026-10-28 083250" src="https://github.com/user-attachments/assets/591c480b-1207-4942-b9f3-2868e59c2958" />
+
+<img width="286" height="85" alt="Screenshot 2026-10-28 083302" src="https://github.com/user-attachments/assets/70e47498-1124-4d83-a2ba-2493a524f48a" />
 
 ---
 
@@ -249,23 +253,26 @@ form.addEventListener("submit", function (event) {
 
 **Hasil — Semua kosong:**
 
-![Screenshot Latihan 5 - Semua kosong](screenshots/05-validasi-semua-kosong.png)
+<img width="832" height="82" alt="Screenshot 2026-10-28 084143" src="https://github.com/user-attachments/assets/eaa9e73a-bfc3-4403-992f-1b373805ae08" />
+
 
 **Hasil Nama kosong:**
 
-![Screenshot Latihan 5 - Nama kosong](screenshots/05-validasi-nama-kosong.png)
+<img width="817" height="96" alt="Screenshot 2026-10-28 084255" src="https://github.com/user-attachments/assets/3cbcb6d7-b6cb-4dc2-acd3-6e643a2a97c5" />
 
 **Hasil Email tidak valid:**
 
-![Screenshot Latihan 5 - Email tidak valid](screenshots/05-validasi-email-tidak-valid.png)
+<img width="836" height="77" alt="Screenshot 2026-10-28 084417" src="https://github.com/user-attachments/assets/b05e8b43-1006-434b-9ddf-1c89b7b2aec4" />
 
 **Hasil Usia di bawah 17:**
 
-![Screenshot Latihan 5 - Usia di bawah 17](screenshots/05-validasi-usia-bawah.png)
+<img width="815" height="93" alt="Screenshot 2026-10-28 084459" src="https://github.com/user-attachments/assets/6b42dbb5-ca3b-4632-a57a-4c92eb8e2743" />
 
 **Hasil Semua valid:**
 
-![Screenshot Latihan 5 - Semua valid](screenshots/05-validasi-berhasil.png)
+<img width="827" height="42" alt="Screenshot 2026-10-28 084536" src="https://github.com/user-attachments/assets/cf41e65d-e5d9-4f52-9b50-2ddfdb6e54ea" />
+
+<img width="318" height="50" alt="Screenshot 2026-10-28 084552" src="https://github.com/user-attachments/assets/a04ac95d-8a5c-4c08-a015-71db27963bf9" />
 
 ---
 
@@ -338,10 +345,12 @@ li {
 
 **Hasil — Menambahkan tugas:**
 
-![Screenshot Latihan 6 - Menambah tugas](screenshots/06-todo-tambah.png)
+<img width="416" height="130" alt="Screenshot 2026-10-28 085915" src="https://github.com/user-attachments/assets/c28c2a09-9fd1-44fd-a67b-9c4bbdb3897e" />
+
 
 **Hasil — Menandai selesai:**
 
-![Screenshot Latihan 6 - Tandai selesai](screenshots/06-todo-selesai.png)
+<img width="393" height="237" alt="Screenshot 2026-10-28 090059" src="https://github.com/user-attachments/assets/c7a78e7a-e73a-4e59-95b7-fa80fe93c05d" />
+
 
 ---
