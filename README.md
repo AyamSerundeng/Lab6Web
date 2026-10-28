@@ -189,7 +189,7 @@ namaInput.addEventListener("input", function () {
 
 **Hasil di browser:**
 
-<img width="296" height="75" alt="Screenshot 2026-10-28 083250" src="https://github.com/user-attachments/assets/591c480b-1207-4942-b9f3-2868e59c2958" />
+<img width="295" height="82" alt="Screenshot 2026-10-28 082818" src="https://github.com/user-attachments/assets/6ead6cde-9fcd-48fa-a700-26a5628802a6" />
 
 <img width="286" height="85" alt="Screenshot 2026-10-28 083302" src="https://github.com/user-attachments/assets/70e47498-1124-4d83-a2ba-2493a524f48a" />
 
@@ -343,12 +343,12 @@ li {
 - Klik "Tandai selesai" → teks bergaris dan tombol berubah.
 - Klik lagi untuk membatalkan.
 
-**Hasil — Menambahkan tugas:**
+**Hasil Menambahkan tugas:**
 
 <img width="416" height="130" alt="Screenshot 2026-10-28 085915" src="https://github.com/user-attachments/assets/c28c2a09-9fd1-44fd-a67b-9c4bbdb3897e" />
 
 
-**Hasil — Menandai selesai:**
+**Hasil Menandai selesai:**
 
 <img width="393" height="237" alt="Screenshot 2026-10-28 090059" src="https://github.com/user-attachments/assets/c7a78e7a-e73a-4e59-95b7-fa80fe93c05d" />
 
