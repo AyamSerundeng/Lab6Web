@@ -8,3 +8,7 @@
 
 .selesai span { text-decoration: line-through; color: #687386; }
 li { margin-bottom: 8px; }
+
+.sembunyi {
+    display: none;
+}

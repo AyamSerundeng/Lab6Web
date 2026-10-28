@@ -1,4 +1,4 @@
-// Ambil semua elemen
+
 const form = document.getElementById("formDaftar");
 const namaInput = document.getElementById("nama");
 const emailInput = document.getElementById("email");
@@ -12,30 +12,30 @@ const ringSesi = document.getElementById("ringSesi");
 const pesanForm = document.getElementById("pesanForm");
 const tombolReset = document.getElementById("tombolReset");
 
-// 1. Hitung karakter nama + update ringkasan
+
 namaInput.addEventListener("input", function () {
     jumlahKarakter.textContent = namaInput.value.length;
     ringNama.textContent = namaInput.value.trim() === "" ? "-" : namaInput.value;
 });
 
-// 2. Update ringkasan email
+
 emailInput.addEventListener("input", function () {
     ringEmail.textContent = emailInput.value.trim() === "" ? "-" : emailInput.value;
 });
 
-// 3. Update ringkasan sesi
+
 sesiSelect.addEventListener("change", function () {
     const teksSesi = sesiSelect.options[sesiSelect.selectedIndex].text;
     ringSesi.textContent = sesiSelect.value === "" ? "-" : teksSesi;
 });
 
-// Fungsi tampilkan pesan
+
 function tampilkanPesan(teks, tipe) {
     pesanForm.textContent = teks;
     pesanForm.className = "pesan " + tipe;
 }
 
-// 4. Validasi saat submit
+
 form.addEventListener("submit", function (event) {
     event.preventDefault();
 
@@ -55,7 +55,7 @@ form.addEventListener("submit", function (event) {
     }
 });
 
-// 5. Tombol reset
+
 tombolReset.addEventListener("click", function () {
     form.reset();
     jumlahKarakter.textContent = "0";

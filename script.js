@@ -31,8 +31,8 @@ form.addEventListener("submit", function (event) {
     const usiaInput = document.getElementById("usia").value;
     const usia = Number(usiaInput);
     const polaEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (nama === "") {
-    pesanForm.textContent = "Nama wajib diisi.";
+    if (nama.length < 3) {
+    pesanForm.textContent = "Nama minimal 3 karakter.";
     } else if (!polaEmail.test(email)) {
         pesanForm.textContent = "Masukkan email yang valid.";
     } else if (usiaInput === "" || !Number.isInteger(usia) || usia < 17 || usia > 100) {
@@ -56,6 +56,15 @@ tambahTugas.addEventListener("click", function () {
     const item = document.createElement("li");
     const label = document.createElement("span");
     const selesai = document.createElement("button");
+     const hapus = document.createElement("button");
+    hapus.type = "button";
+    hapus.textContent = "Hapus";
+    hapus.classList.add("tombol-hapus"); 
+    
+    hapus.addEventListener("click", function () {
+        item.remove();
+        pesanTugas.textContent = "Tugas berhasil dihapus.";
+    });
     label.textContent = teks + " ";
     selesai.type = "button";
     selesai.textContent = "Tandai selesai";
@@ -64,9 +73,16 @@ tambahTugas.addEventListener("click", function () {
         selesai.textContent = item.classList.contains("selesai")
     ? "Batalkan selesai" : "Tandai selesai";
     });
-    item.append(label, selesai);
+    item.append(label, selesai, hapus); 
     daftarTugas.appendChild(item);
     inputTugas.value = "";
     pesanTugas.textContent = "Tugas ditambahkan.";
     inputTugas.focus();
+});
+
+const tombolSembunyi = document.getElementById("tombolSembunyi");
+const paragrafRahasia = document.getElementById("paragrafRahasia");
+
+tombolSembunyi.addEventListener("click", function () {
+    paragrafRahasia.classList.toggle("sembunyi");
 });
