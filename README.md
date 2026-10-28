@@ -350,9 +350,6 @@ li {
 
 **Hasil — Menandai selesai:**
 
-![Uploading Screenshot 2026-10-28 090059.png…]()
-
-
 <img width="393" height="237" alt="Screenshot 2026-10-28 090059" src="https://github.com/user-attachments/assets/c7a78e7a-e73a-4e59-95b7-fa80fe93c05d" />
 
 
