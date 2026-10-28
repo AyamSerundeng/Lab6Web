@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Workshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pendaftaran Workshop</h1>
+
+        <form id="formDaftar">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+                <div class="counter">Jumlah karakter: <span id="jumlahKarakter">0</span></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="contoh@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="sesi">Pilih Sesi Workshop:</label>
+                <select id="sesi">
+                    <option value="">-- Pilih Sesi --</option>
+                    <option value="pagi">Sesi Pagi (09:00 - 12:00)</option>
+                    <option value="siang">Sesi Siang (13:00 - 16:00)</option>
+                    <option value="malam">Sesi Malam (19:00 - 21:00)</option>
+                </select>
+            </div>
+
+            <div class="ringkasan">
+                <h3>Ringkasan Pendaftaran</h3>
+                <p>Nama: <span id="ringNama">-</span></p>
+                <p>Email: <span id="ringEmail">-</span></p>
+                <p>Sesi: <span id="ringSesi">-</span></p>
+            </div>
+
+            <div id="pesanForm" class="pesan"></div>
+
+            <div class="button-group">
+                <button type="submit" id="tombolDaftar">Daftar</button>
+                <button type="button" id="tombolReset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
